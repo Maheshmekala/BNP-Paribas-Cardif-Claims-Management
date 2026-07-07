@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector DB
+data/vector_db/*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment
+.env
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sample generated files
+data/samples/generated_*
+
+# OS
+.DS_Store
+Thumbs.db
